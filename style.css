@@ -175,19 +175,21 @@ li a{
 	border: 1px solid #FF900E;
 	padding: 25px 0;
 }
-/* .card-container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: auto;
+
+/* sponsors section style */
+.sponsor {
 	text-align: center;
-	margin-top: 70px;
+	margin: 100px 0;
 }
-.card-container .card {
-	border-radius: 8px;
-	border: 1px solid #FF900E;
-	padding: 20px;
-	margin: 10px;
-} */
+
+.sponsors-container {
+	margin-top: 30px;
+	align-items: center;
+}
+.sponsors-container img {
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
 
 
 
