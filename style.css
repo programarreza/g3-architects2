@@ -191,16 +191,17 @@ li a{
 	margin-bottom: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* footer section style */
+footer {
+	margin: 0 100px 100px 100px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 8px;
+	background: #FFF4E7;
+}
+footer p {
+	color: #424242;
+}
 
 /* responsive mobile device */
 @media screen and (max-width: 576px) {
@@ -235,7 +236,6 @@ li a{
 		gap: 0;
 		padding: 10px;
 	}
-
 	.ten-years-experience{
 		left: 0;
 	}
@@ -246,6 +246,9 @@ li a{
 	.card-container .card {
 		width: 100%;
 		margin-bottom: 10px;
+	}
+	footer{
+		margin: 0 0 20px 0;
 	}
 }
 
